@@ -20,7 +20,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 button {
@@ -42,7 +42,7 @@ select {
 
 select:focus,
 button:focus {
-    outline: 0;
+    outline: none;
 }
 
 .settings-btn {
@@ -86,10 +86,6 @@ h2 {
     padding: .8rem;
     border-radius: .4rem;
     margin: 0 0 4rem;
-}
-
-h1 {
-    margin: 0;
 }
 
 input {
